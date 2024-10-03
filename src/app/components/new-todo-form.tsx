@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 type ToDoFormProps = {
-    onCreate: (title: string, description: String) => void;
+    onCreate: (title: string, description: string) => void;
 }
 
 export function NewToDoForm ({onCreate}: ToDoFormProps) {
