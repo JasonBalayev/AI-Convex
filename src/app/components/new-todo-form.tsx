@@ -16,13 +16,33 @@ export function NewToDoForm ({onCreate}: ToDoFormProps) {
         setDescription(""); 
       }
 
-    return (
+      return (
         <form onSubmit={handleSubmit}>
-        <label htmlFor="title">Title</label>
-        <input type="text" name="title" id="title" value={title} onChange={e => setTitle(e.target.value)} style={{ color: 'black' }}/>
-        <label htmlFor="description">Description</label>
-        <input type="text" name="description" id="description" value={description} onChange={e => setDescription(e.target.value)} style={{ color: 'black' }}/>
-        <button type="submit">Create</button>
-      </form> 
-    )
-}
+          <div className="flex flex-col gap-2">
+            <label className="text-sm font-semibold" htmlFor="title">Title</label>
+            <input
+              className="p-1 border rounded"
+              type="text"
+              name="title"
+              id="title"
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              style={{ color: 'black' }}
+            />
+            <label className="text sm font-semibold" htmlFor="description">Description</label>
+            <input
+              className="p-1 border rounded"
+              type="text"
+              name="description"
+              id="description"
+              value={description}
+              onChange={(e) => setDescription(e.target.value)}
+              style={{ color: 'black' }}
+            />
+            <button className="bg-blue-500 p-1 rounded text-white" type="submit">
+              Create
+            </button>
+          </div>
+        </form>
+      );
+    }
