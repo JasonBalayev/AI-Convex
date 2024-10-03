@@ -4,7 +4,6 @@ import { NewToDoForm } from "./components/new-todo-form";
 import { useQuery, useMutation } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import { Id } from "../../convex/_generated/dataModel";
-import { deleteTodo } from "../../convex/functions";
 
 
 export default function Home() {
