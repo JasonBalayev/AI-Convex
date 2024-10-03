@@ -20,6 +20,7 @@ export default function Home() {
       <ul>
         {todos.map(({ title, description, completed }, index) => (
           <ToDoItem 
+            key={index}
             title={title} 
             description={description} 
             completed={completed}
