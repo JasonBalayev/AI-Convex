@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI-Convex 🤖
 
-## Getting Started
+AI-Convex is an AI-powered To-Do list application designed to enhance task management efficiency through the use of artificial intelligence. It integrates modern web technologies like React, Convex, TypeScript, and Clerk Authentication to provide a seamless, intelligent, and secure user experience. The AI capabilities offer personalized suggestions and smart features that help users stay organized and on top of their tasks.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Check out the live version of the app here: [AI-Convex Live](https://ai-convex-mu.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Table of Contents
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Features](#features)
+- [Tech Stack](#tech-stack)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- AI-powered task suggestions to help users manage their to-do list more efficiently.
+- Task management interface that allows users to create, update, and delete tasks.
+- Secure user authentication using Clerk.
+- Deployed using Vercel for fast and scalable performance.
+- Real-time data management using Convex backend.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend**: React
+- **Backend**: Convex
+- **Authentication**: Clerk
+- **Language**: TypeScript
+- **Deployment**: Vercel
+- **Styling**: Tailwind CSS
+- **Build Tool**: Next.js
