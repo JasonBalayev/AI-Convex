@@ -5,7 +5,7 @@ import { NewToDoForm } from "./components/new-todo-form";
 import { ToDoList } from "./components/to-do-list";
 import { SignInButton, UserButton } from "@clerk/nextjs";
 import { GenerateTodosForm } from "./components/generate-todos-form";
-import { FiLogIn, FiUser } from "react-icons/fi"; 
+import { FiLogIn } from "react-icons/fi"; 
 import { motion } from "framer-motion"; 
 
 export default function Home() {
