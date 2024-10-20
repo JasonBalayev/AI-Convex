@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^5.7.1",
+    "@mui/icons-material": "^6.1.4",
     "convex": "^1.16.3",
     "framer-motion": "^11.11.9",
     "next": "14.2.14",
